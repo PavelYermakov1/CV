@@ -46,6 +46,12 @@ export default (props) => (
                             pavelak137@mail.ru
                         </a>
                     </li>
+                    <li className='contacts-item'>
+                        <a href='https://t.me/PavelErmakov' className='contacts-link'>
+                        <img src='telega3.png' alt='1' className='telega' /> 
+                            https://t.me/PavelErmakov
+                        </a>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -151,7 +157,7 @@ export default (props) => (
             <div className='conteiner'>
                 <h3 className='section-title english-title'>English level:</h3>
                 <p className='english-text'>I studied English at school and university and I continue to improve my skills almost every day. My current level of English is Pre-Intermediate (A2).</p>
-            </div>
+            </div> 
         </section>
     </main>
 )

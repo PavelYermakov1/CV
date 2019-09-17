@@ -64,6 +64,10 @@ main {
 .contacts-link:hover {
     color: #498377;
 }
+.telega {
+    filter: invert(0);
+    size: 200%;
+}
 
 .section-title::after {
     background-color: #ada9a9;
@@ -211,7 +215,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-left: 85px;
-    width: 500px;
+    width: 50%;
     margin-bottom: 0px;
     padding-bottom: 10px;
 }
