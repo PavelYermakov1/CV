@@ -100,11 +100,36 @@ main {
     content: "";
     height: 1px;
     width: 940px;
-    position: relative;
     display: block;
     left: 5px;
     top: 5px;
 }
+
+@media only screen and (max-width: 800px) {
+    .section-title::after {
+        background-color: #ada9a9;
+        content: "";
+        height: 1px;
+        width: 600px;
+        display: block;
+        left: 5px;
+        top: 5px;
+    }
+      
+}
+
+    @media only screen and (max-width: 480px) {
+        .section-title::after {
+            background-color: #ada9a9;
+            content: "";
+            height: 1px;
+            width: 300px;
+            display: block;
+            left: 5px;
+            top: 5px;
+        }           
+    }
+
 .contacts-link .contacts-icon {
     background: url(../../Assets/photo.jpg);
 }
