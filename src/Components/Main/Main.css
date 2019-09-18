@@ -32,6 +32,32 @@ main {
     margin-top: 25px;
     font-style: italic;
 }
+
+@media only screen and (max-width: 800px) {
+    .info .conteiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+      
+}
+
+    @media only screen and (max-width: 480px) {
+        .info .conteiner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;   
+        }
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 350px;
+        }           
+    }
+
 .contacts .container {
     height: 250px;
 }

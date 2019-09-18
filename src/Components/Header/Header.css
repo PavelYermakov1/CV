@@ -1,6 +1,8 @@
 .header {
     background: url(../../Assets/headerFoto.jpg)  ;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 .header-conteiner {
     display: flex;
@@ -72,3 +74,25 @@ nav {
     color: rgb(8, 8, 8);
     font-weight: 600;
 }
+
+@media only screen and (max-width: 800px) {
+    .menu-list a {
+        color: rgb(245, 237, 237);   
+    }
+    .name {
+        color: rgb(245, 237, 237);
+    }
+    
+    
+}
+
+    @media only screen and (max-width: 480px) {
+        .menu-list a {
+            color: rgb(245, 237, 237);   
+        }
+        .name {
+            color: rgb(245, 237, 237);
+        }
+        
+                 
+    }
