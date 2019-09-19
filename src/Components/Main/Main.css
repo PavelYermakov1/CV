@@ -1,5 +1,6 @@
 main {
     background: #e6e5e5;
+    overflow-x: hidden;
 }
 .info .conteiner {
     display: flex;
